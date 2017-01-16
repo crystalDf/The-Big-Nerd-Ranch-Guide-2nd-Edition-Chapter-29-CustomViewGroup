@@ -33,6 +33,7 @@ public class MyViewGroup extends ViewGroup {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+
         int childCount = getChildCount();
 
         Log.i(TAG, "the size of this ViewGroup is ----> " + childCount) ;
@@ -60,6 +61,7 @@ public class MyViewGroup extends ViewGroup {
 
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
+
         int childCount = getChildCount();
 
         int startLeft = 0;
