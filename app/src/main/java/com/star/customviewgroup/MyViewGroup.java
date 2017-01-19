@@ -19,6 +19,7 @@ public class MyViewGroup extends ViewGroup {
 
     public MyViewGroup(Context context) {
         super(context);
+
         mContext = context;
 
         init();
@@ -26,6 +27,7 @@ public class MyViewGroup extends ViewGroup {
 
     public MyViewGroup(Context context, AttributeSet attrs) {
         super(context, attrs);
+
         mContext = context;
 
         init();
